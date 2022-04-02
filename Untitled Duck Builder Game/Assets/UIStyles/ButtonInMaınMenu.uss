@@ -1,0 +1,66 @@
+.button-style {
+    height: 83px;
+    width: 262px;
+    font-size: 26px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(63, 60, 60);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    justify-content: center;
+}
+
+.button-style:hover {
+    height: 83px;
+    width: 262px;
+    font-size: 26px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.button-style:active {
+    height: 83px;
+    width: 262px;
+    font-size: 31px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(19, 9, 9);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}

@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1415; Version 2009; 64bit' Language: 'tr' Physical Memory: 7976 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Can/Unity Projects/Untitled Duck Builder Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58878
+Successfully changed project path to: C:/Users/Can/Unity Projects/Untitled Duck Builder Game
+C:/Users/Can/Unity Projects/Untitled Duck Builder Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 140.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Can/Unity Projects/Untitled Duck Builder Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004935 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 120.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4117ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.045006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Can\Unity Projects\Untitled Duck Builder Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Can\Unity Projects\Untitled Duck Builder Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.InputSystem.InputSystemEventSystem:get_focusedPanel due to: Could not resolve type with token 01000022 (from typeref, class/assembly UnityEngine.UIElements.RuntimePanel, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.RuntimePanel member:(null) signature:<none>
+
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <6815f06aed484ff088c24eff32dde63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+Could not load signature of UnityEngine.UIElements.InputSystem.InputSystemEventSystem:get_focusedPanel due to: Could not resolve type with token 01000022 (from typeref, class/assembly UnityEngine.UIElements.RuntimePanel, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.RuntimePanel member:(null) signature:<none>
+Could not load signature of UnityEngine.UIElements.InputSystem.InputSystemEventSystem:set_focusedPanel due to: Could not resolve type with token 01000022 (from typeref, class/assembly UnityEngine.UIElements.RuntimePanel, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.RuntimePanel member:(null) signature:<none>
+Could not load signature of UnityEngine.UIElements.InputSystem.InputSystemEventSystem:UpdateFocusedPanel due to: Could not resolve type with token 01000022 (from typeref, class/assembly UnityEngine.UIElements.RuntimePanel, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.RuntimePanel member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsInputSystemModule.dll, this assembly can cause crashes in the runtime
+
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 192.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1950ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1709ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (911ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (193ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 157 unused Assets to reduce memory usage. Loaded Objects now: 4990.
+Total: 4.878900 ms (FindLiveObjects: 0.481300 ms CreateObjectMapping: 0.399400 ms MarkObjects: 3.697800 ms  DeleteObjects: 0.299400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UIDocuments/MianMenu.uxml
+  artifactKey: Guid(067ae46e32cd0db458e5883b3a49247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIDocuments/MianMenu.uxml using Guid(067ae46e32cd0db458e5883b3a49247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71803d9c2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff718010212 (Unity) ResolveArtifactV2
+0x00007ff718027f70 (Unity) ImportToObjects
+0x00007ff718027288 (Unity) ImportAsset
+0x00007ff717fc58ef (Unity) AssetImportWorker::Import
+0x00007ff717fe89a2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff71806f122 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff718071390 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff718074a7e (Unity) asio::io_service::run
+0x00007ff718010f5a (Unity) RunAssetImportWorkerClientV2
+0x00007ff718010fb0 (Unity) RunAssetImporterV2
+0x00007ff717b146f7 (Unity) Application::InitializeProject
+0x00007ff717f23ec7 (Unity) WinMain
+0x00007ff719a84672 (Unity) __scrt_common_main_seh
+0x00007fffb5307034 (KERNEL32) BaseThreadInitThunk
+0x00007fffb6642651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(067ae46e32cd0db458e5883b3a49247c) Importer(-1,00000000000000000000000000000000), Assets/UIDocuments/MianMenu.uxml from editor
+Resuming Guid(067ae46e32cd0db458e5883b3a49247c) Importer(-1,00000000000000000000000000000000) -> 9850cd80e217f81ae3ff08f451a98efd 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff71803d9c2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff718010212 (Unity) ResolveArtifactV2
+0x00007ff718008581 (Unity) ProduceArtifactV2
+0x00007ff717fa2b8e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff717f8dbd8 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff71802828e (Unity) ImportToObjects
+0x00007ff718027288 (Unity) ImportAsset
+0x00007ff717fc58ef (Unity) AssetImportWorker::Import
+0x00007ff717fe89a2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff71806f122 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff718071390 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff718074a7e (Unity) asio::io_service::run
+0x00007ff718010f5a (Unity) RunAssetImportWorkerClientV2
+0x00007ff718010fb0 (Unity) RunAssetImporterV2
+0x00007ff717b146f7 (Unity) Application::InitializeProject
+0x00007ff717f23ec7 (Unity) WinMain
+0x00007ff719a84672 (Unity) __scrt_common_main_seh
+0x00007fffb5307034 (KERNEL32) BaseThreadInitThunk
+0x00007fffb6642651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(067ae46e32cd0db458e5883b3a49247c) Importer(-1,00000000000000000000000000000000), Assets/UIDocuments/MianMenu.uxml from editor
+Resuming Guid(067ae46e32cd0db458e5883b3a49247c) Importer(-1,00000000000000000000000000000000) -> 9850cd80e217f81ae3ff08f451a98efd 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '18e0cc0b587da3811b25d0d2581a2bee') in 0.596831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.081648 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(5b59e0177e3cf56438011c567886c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(5b59e0177e3cf56438011c567886c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fe7fc110f1d9f51a59fb1266a7d859') in 0.012455 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

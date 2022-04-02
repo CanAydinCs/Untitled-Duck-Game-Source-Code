@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UIStyles/ButtonInMaınMenu.uss" />
+    <ui:VisualElement name="backGround" style="height: 1079px; width: 1920px; justify-content: center; align-items: center; flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="start-menu" class="button-style" style="height: 594px; width: 554px; background-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: center; justify-content: center; flex-direction: column; display: flex;">
+            <ui:Label text="Main Menu" display-tooltip-when-elided="true" style="justify-content: flex-start; font-size: 50px; color: rgb(173, 212, 0); -unity-text-align: upper-center; position: absolute; top: 24px; left: auto;" />
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" class="button-style" />
+            <ui:Button text="Options" display-tooltip-when-elided="true" name="options-button" class="button-style" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit-button" class="button-style" style="opacity: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="level-select-menu" style="height: 416px; width: 732px; display: flex; background-color: rgb(255, 255, 255); justify-content: center; align-items: center; border-top-left-radius: 134px; border-bottom-left-radius: 134px; border-top-right-radius: 134px; border-bottom-right-radius: 134px;">
+            <ui:VisualElement name="first-line" style="align-items: center; justify-content: center; height: 109px; width: 824px; flex-direction: row;">
+                <ui:Button text="1" display-tooltip-when-elided="true" name="level-1" class="button-style" style="height: 109px; width: 118px;" />
+                <ui:Button text="2" display-tooltip-when-elided="true" name="level-2" class="button-style" style="height: 109px; width: 118px;" />
+                <ui:Button text="3" display-tooltip-when-elided="true" name="level-3" class="button-style" style="height: 109px; width: 118px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="second-line" style="height: 138px; width: 796px; flex-direction: row; align-items: flex-start; justify-content: center;">
+                <ui:Button text="5" display-tooltip-when-elided="true" name="level-5" class="button-style" style="height: 109px; width: 118px;" />
+                <ui:Button text="6" display-tooltip-when-elided="true" name="level-6" class="button-style" style="height: 109px; width: 118px;" />
+                <ui:Button text="4" display-tooltip-when-elided="true" name="level-4" class="button-style" style="height: 109px; width: 118px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
